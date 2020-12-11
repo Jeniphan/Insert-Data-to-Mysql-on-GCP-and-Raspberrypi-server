@@ -12,11 +12,11 @@ app.use(bodyParser.urlencoded({
 
 
 const db = mysql.createConnection({
-    host: '34.87.184.214',
+    host: 'hostname GCP',
     port: 3306,
-    user: 'esp33',
-    password: '@Jj068209',
-    database: 'EPS_32'
+    user: 'username',
+    password: 'password',
+    database: 'DB'
 });
 
 db.connect();
